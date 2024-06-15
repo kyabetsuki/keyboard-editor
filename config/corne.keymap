@@ -16,6 +16,11 @@
             bindings = <&tog 6>;
             key-positions = <0 5>;
         };
+
+        Caps-Word {
+            bindings = <&caps_word>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
