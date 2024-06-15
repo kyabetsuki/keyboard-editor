@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q           &kp W        &kp F           &kp P      &kp B               &kp J              &kp L    &kp U            &kp Y        &kp SQT          &trans
-&trans  &mt A LEFT_WIN  &mt R LCTRL  &mt S LEFT_ALT  &kp T      &mt G LEFT_SHIFT    &mt M RIGHT_SHIFT  &kp N    &mt E RIGHT_ALT  &mt I RCTRL  &mt O LEFT_META  &trans
-&trans  &kp Z           &kp X        &kp C           &kp D      &kp V               &kp K              &kp H    &kp COMMA        &kp DOT      &kp FSLH         &trans
-                                     &kp ESC         &lt 2 RET  &lt 1 BACKSPACE     &lt 3 SPACE        &kp TAB  &kp DELETE
+&trans  &kp Q           &kp W        &kp F           &kp P      &kp B               &kp J              &kp L      &kp U            &kp Y        &kp SQT          &trans
+&trans  &mt A LEFT_WIN  &mt R LCTRL  &mt S LEFT_ALT  &kp T      &mt G LEFT_SHIFT    &mt M RIGHT_SHIFT  &kp N      &mt E RIGHT_ALT  &mt I RCTRL  &mt O LEFT_META  &trans
+&trans  &kp Z           &kp X        &kp C           &kp D      &kp V               &kp K              &kp H      &kp COMMA        &kp DOT      &kp FSLH         &trans
+                                     &kp ESC         &lt 2 RET  &lt 1 BACKSPACE     &lt 3 SPACE        &lt 4 TAB  &lt 5 DEL
             >;
         };
 
@@ -60,6 +60,15 @@
 &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp DOLLAR    &kp RIGHT_PARENTHESIS  &kp AMPERSAND        &kp LEFT_SHIFT  &trans         &kp LEFT_ALT      &kp LCTRL  &kp LEFT_META  &trans
 &trans  &kp UNDERSCORE   &kp PLUS              &kp ASTERISK  &kp HASH               &kp TILDE            &trans          &trans         &trans            &trans     &trans         &trans
                                                &kp CARET     &kp SLASH              &kp COLON            &trans          &trans         &trans
+            >;
+        };
+
+        Fun {
+            bindings = <
+&trans  &kp F12  &kp F7  &kp F8             &kp F9   &kp SYSREQ        &trans          &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans         &trans
+&trans  &kp F11  &kp F4  &kp F5             &kp F6   &kp SCROLLLOCK    &kp LEFT_SHIFT  &trans         &kp LEFT_ALT      &kp LCTRL  &kp LEFT_META  &trans
+&trans  &kp F10  &kp F1  &kp F2             &kp F3   &kp C_PAUSE       &trans          &trans         &trans            &trans     &trans         &trans
+                         &kp K_APPLICATION  &kp TAB  &trans            &trans          &trans         &trans
             >;
         };
     };
