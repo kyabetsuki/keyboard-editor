@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/mouse.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        To-Game {
+            bindings = <&tog 6>;
+            key-positions = <0 5>;
+        };
+
+        Cap-Word {
+            bindings = <&caps_word>;
+            key-positions = <17 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
