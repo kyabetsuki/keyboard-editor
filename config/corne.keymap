@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q           &kp W        &kp F           &kp P    &kp B               &kp J              &kp L    &kp U            &kp Y        &kp SQT          &trans
-&trans  &mt A LEFT_WIN  &mt R LCTRL  &mt S LEFT_ALT  &kp T    &mt G LEFT_SHIFT    &mt M RIGHT_SHIFT  &kp N    &mt E RIGHT_ALT  &mt I RCTRL  &mt O LEFT_META  &trans
-&trans  &kp Z           &kp X        &kp C           &kp D    &kp V               &kp K              &kp H    &kp COMMA        &kp DOT      &kp FSLH         &trans
-                                     &kp ESC         &kp RET  &lt 1 BACKSPACE     &kp SPACE          &kp TAB  &kp DELETE
+&trans  &kp Q           &kp W        &kp F           &kp P      &kp B               &kp J              &kp L    &kp U            &kp Y        &kp SQT          &trans
+&trans  &mt A LEFT_WIN  &mt R LCTRL  &mt S LEFT_ALT  &kp T      &mt G LEFT_SHIFT    &mt M RIGHT_SHIFT  &kp N    &mt E RIGHT_ALT  &mt I RCTRL  &mt O LEFT_META  &trans
+&trans  &kp Z           &kp X        &kp C           &kp D      &kp V               &kp K              &kp H    &kp COMMA        &kp DOT      &kp FSLH         &trans
+                                     &kp ESC         &lt 2 RET  &lt 1 BACKSPACE     &lt 3 SPACE        &kp TAB  &kp DELETE
             >;
         };
 
@@ -42,6 +42,24 @@
 &trans  &kp LEFT_META  &kp LCTRL  &kp LEFT_ALT  &trans         &kp LEFT_SHIFT    &caps_word  &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP    &mmv MOVE_RIGHT    &trans
 &trans  &trans         &trans     &trans        &kp BACKSPACE  &trans            &trans      &msc SCROLL_LEFT  &mwh SCROLL_DOWN  &msc SCROLL_UP  &msc SCROLL_RIGHT  &trans
                                   &trans        &trans         &trans            &mkp LCLK   &mkp RCLK         &mkp MCLK
+            >;
+        };
+
+        Num {
+            bindings = <
+&trans  &kp LEFT_BRACKET  &kp N7  &kp N8      &kp N9  &kp RIGHT_BRACKET    &trans          &trans  &trans        &trans     &trans         &trans
+&trans  &kp SEMI          &kp N4  &kp N5      &kp N6  &kp EQUAL            &kp LEFT_SHIFT  &trans  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_META  &trans
+&trans  &kp GRAVE         &kp N1  &kp N2      &kp N3  &kp PLUS             &trans          &trans  &trans        &trans     &trans         &trans
+                                  &kp PERIOD  &kp N0  &kp MINUS            &trans          &trans  &trans
+            >;
+        };
+
+        Sym {
+            bindings = <
+&trans  &kp LEFT_BRACE   &kp PERCENT           &kp AT_SIGN   &kp PIPE               &kp RIGHT_BRACKET    &trans          &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans         &trans
+&trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp DOLLAR    &kp RIGHT_PARENTHESIS  &kp AMPERSAND        &kp LEFT_SHIFT  &trans         &kp LEFT_ALT      &kp LCTRL  &kp LEFT_META  &trans
+&trans  &kp UNDERSCORE   &kp PLUS              &kp ASTERISK  &kp HASH               &kp TILDE            &trans          &trans         &trans            &trans     &trans         &trans
+                                               &kp CARET     &kp SLASH              &kp COLON            &trans          &trans         &trans
             >;
         };
     };
