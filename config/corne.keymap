@@ -29,7 +29,7 @@
         };
 
         Disconnect {
-            bindings = <&bt BT_CLR>;
+            bindings = <&bt BT_CLR_ALL>;
             key-positions = <0 24 11 35>;
         };
     };
