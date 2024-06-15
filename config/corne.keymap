@@ -35,7 +35,7 @@
 
             bindings = <
 &trans  &kp Q           &kp W        &kp F           &kp P      &kp B               &kp J              &kp L      &kp U            &kp Y        &kp SQT          &trans
-&trans  &mt A LEFT_WIN  &mt R LCTRL  &mt S LEFT_ALT  &kp T      &mt G LEFT_SHIFT    &mt M RIGHT_SHIFT  &kp N      &mt E RIGHT_ALT  &mt I RCTRL  &mt O LEFT_META  &trans
+&trans  &mt LEFT_WIN A  &mt LCTRL R  &mt LEFT_ALT S  &kp T      &mt LEFT_SHIFT G    &mt RIGHT_SHIFT M  &kp N      &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_WIN O  &trans
 &trans  &kp Z           &kp X        &kp C           &kp D      &kp V               &kp K              &kp H      &kp COMMA        &kp DOT      &kp FSLH         &trans
                                      &kp ESC         &lt 2 RET  &lt 1 BACKSPACE     &lt 3 SPACE        &lt 4 TAB  &lt 5 DEL
             >;
