@@ -25,7 +25,7 @@
 
         Caps-Word {
             bindings = <&caps_word>;
-            key-positions = <17 18>;
+            key-positions = <16 19>;
         };
     };
 
@@ -40,28 +40,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q           &kp W        &kp F           &kp P      &kp B               &kp J              &kp L      &kp U            &kp Y        &kp SQT          &trans
-&trans  &mt LEFT_WIN A  &mt LCTRL R  &mt LEFT_ALT S  &kp T      &mt LEFT_SHIFT G    &mt RIGHT_SHIFT M  &kp N      &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_WIN O  &trans
-&trans  &kp Z           &kp X        &kp C           &kp D      &kp V               &kp K              &kp H      &kp COMMA        &kp DOT      &kp FSLH         &trans
-                                     &kp ESC         &lt 2 RET  &lt 1 BACKSPACE     &lt 3 SPACE        &lt 4 TAB  &lt 5 DEL
-            >;
-        };
-
-        Nav {
-            bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &trans         &trans            &trans      &trans          &trans          &trans        &trans     &trans
-&trans        &kp LEFT_META  &kp LCTRL     &kp LEFT_ALT  &trans         &kp LEFT_SHIFT    &caps_word  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-&bt BT_CLR    &trans         &trans        &trans        &kp BACKSPACE  &trans            &kp INS     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans
-                                           &trans        &trans         &trans            &kp RET     &kp BACKSPACE   &kp DEL
-            >;
-        };
-
-        Mouse {
-            bindings = <
-&trans  &trans         &trans     &trans        &trans         &trans            &trans      &trans            &trans            &trans          &trans             &trans
-&trans  &kp LEFT_META  &kp LCTRL  &kp LEFT_ALT  &trans         &kp LEFT_SHIFT    &caps_word  &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP    &mmv MOVE_RIGHT    &trans
-&trans  &trans         &trans     &trans        &kp BACKSPACE  &trans            &trans      &msc SCROLL_LEFT  &mwh SCROLL_DOWN  &msc SCROLL_UP  &msc SCROLL_RIGHT  &trans
-                                  &trans        &trans         &trans            &mkp LCLK   &mkp RCLK         &mkp MCLK
+&trans  &kp Q           &kp W        &kp F           &kp P             &kp B              &kp J        &kp L              &kp U            &kp Y        &kp SQT          &trans
+&trans  &mt LEFT_WIN A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_SHIFT T  &kp G              &kp M        &mt RIGHT_SHIFT N  &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_WIN O  &trans
+&trans  &kp Z           &kp X        &kp C           &kp D             &kp V              &kp K        &kp H              &kp COMMA        &kp DOT      &kp FSLH         &trans
+                                     &kp ESC         &lt 4 RET         &lt 5 BACKSPACE    &lt 1 SPACE  &lt 2 TAB          &lt 3 DEL
             >;
         };
 
@@ -89,6 +71,24 @@
 &trans  &kp F11  &kp F4  &kp F5             &kp F6   &kp SCROLLLOCK    &kp LEFT_SHIFT  &trans         &kp LEFT_ALT      &kp LCTRL  &kp LEFT_META  &trans
 &trans  &kp F10  &kp F1  &kp F2             &kp F3   &kp C_PAUSE       &trans          &trans         &trans            &trans     &trans         &trans
                          &kp K_APPLICATION  &kp TAB  &trans            &trans          &trans         &trans
+            >;
+        };
+
+        Mouse {
+            bindings = <
+&trans  &trans         &trans     &trans        &trans         &trans            &trans      &trans            &trans            &trans          &trans             &trans
+&trans  &kp LEFT_META  &kp LCTRL  &kp LEFT_ALT  &trans         &kp LEFT_SHIFT    &caps_word  &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP    &mmv MOVE_RIGHT    &trans
+&trans  &trans         &trans     &trans        &kp BACKSPACE  &trans            &trans      &msc SCROLL_LEFT  &mwh SCROLL_DOWN  &msc SCROLL_UP  &msc SCROLL_RIGHT  &trans
+                                  &trans        &trans         &trans            &mkp LCLK   &mkp RCLK         &mkp MCLK
+            >;
+        };
+
+        Nav {
+            bindings = <
+&bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &trans         &trans            &trans      &trans          &trans          &trans        &trans     &trans
+&trans        &kp LEFT_META  &kp LCTRL     &kp LEFT_ALT  &trans         &kp LEFT_SHIFT    &caps_word  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
+&bt BT_CLR    &trans         &trans        &trans        &kp BACKSPACE  &trans            &kp INS     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans
+                                           &trans        &trans         &trans            &kp RET     &kp BACKSPACE   &kp DEL
             >;
         };
 
