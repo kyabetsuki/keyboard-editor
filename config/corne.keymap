@@ -40,10 +40,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp LEFT_BRACKET      &kp Q             &kp W        &kp F           &kp P            &kp B              &kp J        &kp L             &kp U            &kp Y        &kp SQT            &kp RIGHT_BRACKET
-&kp LEFT_PARENTHESIS  &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_META T  &kp G              &kp M        &mt RIGHT_META N  &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_SHIFT O  &kp RIGHT_PARENTHESIS
-&trans                &kp Z             &kp X        &kp C           &kp D            &kp V              &kp K        &kp H             &kp COMMA        &kp DOT      &kp FSLH           &trans
-                                                     &kp ESC         &lt 4 RET        &lt 5 BACKSPACE    &lt 1 SPACE  &lt 2 TAB         &lt 3 DEL
+&kp LEFT_BRACKET      &kp Q             &kp W        &kp F           &kp P            &kp B          &kp J            &kp L             &kp U            &kp Y        &kp SQT            &kp RIGHT_BRACKET
+&kp LEFT_PARENTHESIS  &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_META T  &kp G          &kp M            &mt RIGHT_META N  &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_SHIFT O  &kp RIGHT_PARENTHESIS
+&trans                &kp Z             &kp X        &kp C           &kp D            &kp V          &kp K            &kp H             &kp COMMA        &kp DOT      &kp FSLH           &trans
+                                                     &kp ESC         &lt 4 RET        &lt 5 SPACE    &lt 1 BACKSPACE  &lt 2 TAB         &lt 3 DEL
             >;
         };
 
