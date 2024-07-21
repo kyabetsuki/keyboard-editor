@@ -96,14 +96,14 @@
             bindings = <
 &kp ESCAPE  &lt 7 GRAVE     &kp Q  &kp X    &kp E          &kp R        &kp Y    &kp U         &kp T               &kp O           &kp P           &kp LEFT_BRACKET
 &lt 8 I     &kp LEFT_SHIFT  &kp A  &kp W    &kp D          &kp F        &kp H    &kp J         &kp K               &kp L           &kp UP_ARROW    &kp RIGHT_BRACKET
-&kp M       &kp RCTRL       &kp Z  &kp S    &kp C          &kp V        &kp B    &kp N         &kp COMMA           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp T       &kp RCTRL       &kp Z  &kp S    &kp C          &kp V        &kp B    &kp N         &kp COMMA           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                                    &lt 8 G  &kp BACKSPACE  &kp SPACE    &kp TAB  &kp LEFT_WIN  &mt LEFT_ALT ENTER
             >;
         };
 
         Game-Other {
             bindings = <
-&trans  &trans  &kp K   &kp P   &kp T      &kp J        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp K   &kp P   &kp M      &kp J        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &kp O        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &kp LCTRL  &kp ENTER    &trans  &trans  &trans
