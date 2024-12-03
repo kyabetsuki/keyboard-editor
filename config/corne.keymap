@@ -104,7 +104,7 @@
         Game-Other {
             bindings = <
 &trans  &trans  &kp K   &kp P   &kp M      &kp J        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp H      &kp O        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp N   &kp H      &kp O        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &kp LCTRL  &kp ENTER    &trans  &trans  &trans
             >;
