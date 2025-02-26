@@ -65,6 +65,15 @@
             >;
         };
 
+        Mouse {
+            bindings = <
+&trans  &trans     &trans     &trans        &trans         &trans    &trans            &trans          &trans          &trans             &trans  &trans
+&trans  &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LGUI       &trans    &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT    &trans  &trans
+&trans  &trans     &trans     &trans        &kp BACKSPACE  &trans    &msc SCROLL_LEFT  &msc SCRL_DOWN  &msc SCROLL_UP  &msc SCROLL_RIGHT  &trans  &trans
+                              &trans        &trans         &trans    &mkp LCLK         &mkp RCLK       &mkp MCLK
+            >;
+        };
+
         Func {
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8             &kp F9   &kp SYSREQ        &trans  &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans           &trans
