@@ -23,13 +23,18 @@
         compatible = "zmk,combos";
 
         To-Game {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <0 5>;
         };
 
-        Caps-Word {
-            bindings = <&caps_word>;
+        CapsLock {
+            bindings = <&kp CAPSLOCK>;
             key-positions = <13 22>;
+        };
+
+        Capsword {
+            bindings = <&caps_word>;
+            key-positions = <38 39>;
         };
     };
 
@@ -47,7 +52,7 @@
 &kp LEFT_BRACKET      &kp Q             &kp W        &kp F           &kp P            &kp B              &kp J        &kp L             &kp U            &kp Y        &kp SQT            &kp RIGHT_BRACKET
 &kp LEFT_PARENTHESIS  &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_META T  &kp G              &kp M        &mt RIGHT_META N  &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_SHIFT O  &kp RIGHT_PARENTHESIS
 &kp LT                &kp Z             &kp X        &kp C           &kp D            &kp V              &kp K        &kp H             &kp COMMA        &kp DOT      &kp FSLH           &kp GT
-                                                     &kp ESC         &lt 3 RET        &lt 4 BACKSPACE    &lt 1 SPACE  &lt 2 TAB         &lt 0 DEL
+                                                     &kp ESC         &lt 3 RET        &lt 5 BACKSPACE    &lt 1 SPACE  &lt 2 TAB         &lt 4 DEL
             >;
         };
 
@@ -91,17 +96,17 @@
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &trans    &kp INS   &trans         &trans     &trans     &trans  &trans
 &trans        &kp LSHFT     &kp LCTRL     &kp LEFT_ALT  &kp LGUI       &trans    &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &trans  &trans
-&bt BT_CLR    &trans        &trans        &trans        &kp BACKSPACE  &trans    &kp HOME  &kp PG_DN      &kp PG_UP  &kp END    &trans  &trans
+&bt BT_CLR    &trans        &trans        &trans        &kp BACKSPACE  &trans    &kp HOME  &kp PG_DN      &kp PG_UP  &kp END    &trans  &bt BT_CLR_ALL
                                           &trans        &trans         &trans    &kp RET   &kp BACKSPACE  &kp DEL
             >;
         };
 
         Game {
             bindings = <
-&kp ESCAPE  &lt 6 GRAVE     &kp Q  &kp X  &kp E            &kp R        &kp Y    &kp U         &kp T               &kp O           &kp P           &kp LEFT_BRACKET
-&lt 7 I     &kp LEFT_SHIFT  &kp A  &kp W  &kp D            &kp F        &kp H    &kp J         &kp K               &kp L           &kp UP_ARROW    &kp RIGHT_BRACKET
+&kp ESCAPE  &lt 7 GRAVE     &kp Q  &kp X  &kp E            &kp R        &kp Y    &kp U         &kp T               &kp O           &kp P           &kp LEFT_BRACKET
+&lt 4 I     &kp LEFT_SHIFT  &kp A  &kp W  &kp D            &kp F        &kp H    &kp J         &kp K               &kp L           &kp UP_ARROW    &kp RIGHT_BRACKET
 &kp T       &kp LCTRL       &kp Z  &kp S  &kp C            &kp V        &kp B    &kp N         &kp COMMA           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                                   &kp G  &lt 7 BACKSPACE  &kp SPACE    &kp TAB  &kp LEFT_WIN  &mt LEFT_ALT ENTER
+                                   &kp G  &lt 8 BACKSPACE  &kp SPACE    &kp TAB  &kp LEFT_WIN  &mt LEFT_ALT ENTER
             >;
         };
 
