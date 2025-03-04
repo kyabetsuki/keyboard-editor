@@ -10,8 +10,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 &mt {
     tapping-term-ms = <250>;
@@ -78,9 +76,9 @@
 
         Mouse {
             bindings = <
-&trans  &kp BSPC   &trans     &trans    &trans    &trans       &trans          &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans  &trans
-&trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans       &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans     &trans     &trans    &trans    &trans       &msc SCRL_DOWN  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &trans  &trans
+&trans  &kp BSPC   &trans     &trans    &trans    &trans       &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans  &trans
+&trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans       &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans     &trans     &trans    &trans    &trans       &trans          &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &trans  &trans
                               &trans    &trans    &kp SPACE    &mkp MB1        &mkp MB2        &mkp MB3
             >;
         };
