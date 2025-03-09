@@ -29,7 +29,7 @@
 
         CapsLock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <13 22>;
+            key-positions = <12 23>;
         };
 
         Capsword {
