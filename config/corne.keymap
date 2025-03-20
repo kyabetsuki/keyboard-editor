@@ -70,7 +70,7 @@
 &trans  &kp LEFT_BRACE   &kp PERCENT           &kp AT_SIGN   &kp PIPE               &kp RIGHT_BRACE    &trans  &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans     &trans
 &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp DOLLAR    &kp RIGHT_PARENTHESIS  &kp AMPERSAND      &trans  &kp LGUI       &kp LEFT_ALT      &kp LCTRL  &kp LSHFT  &trans
 &trans  &kp UNDERSCORE   &kp PLUS              &kp ASTERISK  &kp HASH               &kp TILDE          &trans  &trans         &trans            &trans     &trans     &trans
-                                               &kp CARET     &kp SLASH              &kp COLON          &trans  &trans         &trans
+                                               &kp CARET     &kp BACKSLASH          &kp COLON          &trans  &trans         &trans
             >;
         };
 
