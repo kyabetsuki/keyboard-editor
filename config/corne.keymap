@@ -112,10 +112,10 @@
 
         Game-Other {
             bindings = <
-&trans  &trans  &kp K   &kp P    &kp M      &kp J        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp L   &kp N    &kp H      &kp O        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans     &kp B        &trans  &trans  &trans  &trans  &trans  &trans
-                        &kp TAB  &kp LCTRL  &kp ENTER    &trans  &trans  &trans
+&trans  &trans  &kp K   &kp P         &kp M      &kp J        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp L   &kp N         &kp H      &kp O        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans     &kp B        &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp LEFT_ALT  &kp LCTRL  &kp ENTER    &trans  &trans  &trans
             >;
         };
 
